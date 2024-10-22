@@ -236,8 +236,15 @@ namespace WeatherApp
                 case "Light snow":
                     backgroundImage = Image.FromFile("C:\\Ipek\\Projem\\Weather_app\\WeatherApp\\picture\\light_snow.jpg");
                     break;
-
-
+                    /*
+                    3 komut
+                        git add . // değişiklik yaptığımız her şeyi göndereceğimiz gemiye ekliyor
+                        git commit -m "yaptığın şeyleri burada anlatabilirsin kısa not" // gemiye not bırakıyoruz hangi mallar var
+                        git push origin master master ama senin değişikliklerini dosyalarını göndereceğin dal // gemiyi yolcu ediyoruz
+                    şimdi bak projede bir şeyler değiştirdik dimi
+                    yorum satırları falan ekledik buraya
+                    terminal nerde aqmk
+                     */
                 case "Snow":
                     backgroundImage = Image.FromFile("C:\\Ipek\\Projem\\Weather_app\\WeatherApp\\picture\\snow.jpg");
                     /*   this.lbl_anlikgün.ForeColor = Color.DarkBlue;
